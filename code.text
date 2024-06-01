@@ -1,0 +1,29 @@
+int n;
+// دریافت تعداد اعداد از کاربر
+write << "تعداد اعداد را وارد کنید: ";
+read >> n;
+
+// اعداد را دریافت کرده و چاپ می کنیم
+write << "لطفاً " << n << " عدد وارد کنید:" << endl;
+loop (int i = 0; i < n; ++i) {
+int num;
+read >> num;
+write << "عدد وارد شده: " << num << endl;
+}
+
+// محاسبه تعداد اعداد زوج و فرد
+int even_count = 0;
+int odd_count = 0;
+loop (int i = 0; i < n; ++i) {
+int num;
+read >> num;
+if (num % 2 == 0) {
+even_count++;
+} so {
+odd_count++;
+}
+}
+
+// چاپ تعداد اعداد زوج و فرد
+write << "تعداد اعداد زوج: " << even_count << endl;
+write << "تعداد اعداد فرد: " << odd_count << endl;
