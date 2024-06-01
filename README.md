@@ -1,2 +1,2 @@
 # Lexical-analyzer
-Write your code in code.txt and the tun mani.py. It's give you a tokenized expression.
+Write your code in "code.txt" and the run "mani.py". It's give you a tokenized expression.
